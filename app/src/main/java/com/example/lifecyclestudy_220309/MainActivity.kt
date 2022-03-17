@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(detailIntent)
         }
     }
+    // 주의! : MainActivity로 다시 돌아올 땐 onRestart()가 실행됩니다.
 
     override fun onStart() {
         super.onStart()
