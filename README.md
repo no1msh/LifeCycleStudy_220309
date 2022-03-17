@@ -3,6 +3,8 @@
 
 Logcat을 활용하여 안드로이드의 생명주기가 어떻게 동작하는지를 알 수 있습니다.
 
+MainActivity로 다시 돌아올 때 onRestart()인 것을 주의하기 바랍니다.
+
 ![activity_lifecycle](https://user-images.githubusercontent.com/22425650/157458608-55a86a55-a3c7-474d-b9ab-a909e2b878b8.png)
 
 사진 출처 : https://developer.android.com/guide/components/activities/activity-lifecycle?hl=ko
